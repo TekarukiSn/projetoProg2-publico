@@ -16,7 +16,7 @@ public class Veiculo {
     }
 
     public double getCapacVeiculos() {
-        return capacVeiculos;
+        return capacVeiculos * numVeiculos;
     }
 
     public void setCapacVeiculos(double capacVeiculos) {

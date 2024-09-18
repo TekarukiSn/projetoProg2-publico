@@ -95,8 +95,12 @@ public class TelaDistancias extends javax.swing.JInternalFrame {
         double matTV[][] = new double[listC.size() + 1][listC.size() + 1];
         for(int i = 0; i<listC.size(); i++){
             for(int j = 0; j<listC.size(); j++){
-                double d = sqrt(pow((listC.get(i).getLat() - listC.get(j).getLat()), 2) + pow((listC.get(i).getLongi() - listC.get(j).getLongi()), 2));
-                matD[i][j] = d;
+                
+                    
+                
+                    double d = sqrt(pow((listC.get(i).getLat() - listC.get(j).getLat()), 2) + pow((listC.get(i).getLongi() - listC.get(j).getLongi()), 2));
+                    matD[i][j] = d;
+                
             }
         }
         double vm = listV.get(0).getVelMedia();
@@ -114,6 +118,7 @@ public class TelaDistancias extends javax.swing.JInternalFrame {
             }
             txtADistancias.append("\n");
         }
+        
         
         for(int i = 0; i<listC.size(); i++){
             for(int j = 0; j<listC.size(); j++){
