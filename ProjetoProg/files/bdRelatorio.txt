@@ -1,0 +1,21 @@
+Num. Cadastros de Veiculos: 1Num. Veiculos: 1 
+Capacidade Veiuclos: 1.0 
+Volume Carroceria: 1.0 
+Duracao max. Rota: 1 
+Consumo por km: 1.0 
+Preco por litro: 1.0 
+Vel. Media frota: 1.0 
+Latitude Deposito: 13123.0 
+Longitude Deposito: 12321.0 
+ -------------------------- 
+Num. Cadastros de Clientes: 1Cliente iD: 1 
+Latitude: 123213.0 
+Longitude: 12321.0 
+Data inicial: 01/10/2024 10:40 
+Data Final: 01/10/2024 10:41 
+Peso Encomenda: 21.0 
+Volume Encomenda: 12.0 
+Valor Encomenda: 1.0 
+Tempo de Servico: 1 
+Multa por Atraso: 1.0 
+--------------------------- 
